@@ -1,0 +1,16 @@
+split,class_id,class_name,count
+train,0,No DR,1263
+train,1,Mild,258
+train,2,Moderate,699
+train,3,Severe,135
+train,4,Proliferative DR,207
+validation,0,No DR,271
+validation,1,Mild,56
+validation,2,Moderate,150
+validation,3,Severe,29
+validation,4,Proliferative DR,44
+test,0,No DR,271
+test,1,Mild,56
+test,2,Moderate,150
+test,3,Severe,29
+test,4,Proliferative DR,44

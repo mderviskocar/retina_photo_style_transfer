@@ -1,0 +1,9 @@
+Soru: Görüntü standardizasyonu diyabetik retinopati sınıflandırma başarısını artırdı mı?
+Cevap: Hayır. Kayıtlı PyTorch deneylerinde en iyi sonuçlar orijinal görüntülerle alınmıştır.
+
+En iyi accuracy: torch_baseline_original_efficientnet_b0_320_focal_nocw, accuracy 0.8182, macro F1 0.6465.
+En iyi macro F1: torch_baseline_original_efficientnet_b0_320_nocw, accuracy 0.8145, macro F1 0.6710.
+Normalize/style standardized: torch_normalized_style_resnet18, accuracy 0.7727, macro F1 0.6064.
+Photo style transfer: torch_photo_style_transfer_resnet18, accuracy 0.7564, macro F1 0.5974.
+
+Not: Projede "iritasyon" diye bir adım yoktur. Kastedilen augmentasyon ise evet, eğitim sırasında hafif fundus-safe augmentasyon uygulanmıştır.

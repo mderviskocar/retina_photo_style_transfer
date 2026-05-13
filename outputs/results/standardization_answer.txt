@@ -1,0 +1,9 @@
+Soru: Görüntü standardizasyonu diyabetik retinopati sınıflandırma başarısını artırdı mı?
+Cevap: Hayır. Kayıtlı deney sonuçlarında normalize/style-standardized görüntüler orijinal görüntü eğitimini geçmedi.
+
+En iyi orijinal görüntü sonucu: accuracy 0.8182, macro F1 0.6465.
+En iyi orijinal görüntü macro F1 sonucu: accuracy 0.8145, macro F1 0.6710.
+Normalize/style standardized ResNet18 sonucu: accuracy 0.7727, macro F1 0.6064.
+Photo style transfer ResNet18 sonucu: accuracy 0.7564, macro F1 0.5974.
+
+Yorum: Ana rapor metriği olarak macro F1 önemlidir; çünkü APTOS sınıfları dengesizdir.

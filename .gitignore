@@ -1,0 +1,38 @@
+# Python cache / local environment
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# Local/editor files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Dataset files are not committed. Download/place APTOS files locally under data/.
+data/
+
+# Large/generated training artifacts
+outputs/*
+!outputs/
+!outputs/plots/
+!outputs/plots/*.png
+!outputs/results/
+outputs/results/*
+!outputs/results/model_selection_summary.csv
+!outputs/results/split_distribution.csv
+!outputs/results/torch_split_distribution.csv
+!outputs/results/standardization_answer.txt
+!outputs/results/torch_standardization_answer.txt
+
+# Never commit model weights or cache folders.
+*.pt
+*.pth
+*.keras
+*.h5
+outputs/models/
+outputs/torch_cache/
+outputs/processed_samples/
