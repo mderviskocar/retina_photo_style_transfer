@@ -11,6 +11,7 @@ env/
 .vscode/
 .DS_Store
 Thumbs.db
+RAPOR_OVERLEAF.tex
 
 # Dataset files are not committed. Download/place APTOS files locally under data/.
 data/
