@@ -2,7 +2,7 @@
 
 Bu proje, APTOS 2019 Blindness Detection veri setindeki fundus/retina görüntülerinden diyabetik retinopati seviyesini sınıflandırmak için hazırlanmış akademik bir derin öğrenme çalışmasıdır.
 
-Önemli uyarı: Bu proje gerçek tıbbi teşhis sistemi değildir. Sadece akademik/öğrenci projesidir. Klinik karar verme, tanı koyma veya tedavi önerisi amacıyla kullanılmamalıdır.
+
 
 ## Amaç
 
